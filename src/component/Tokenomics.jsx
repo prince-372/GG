@@ -6,7 +6,7 @@ const Tokenomics = () => {
     return (
         <div>
             <section>
-                <img className='w-full translate-y-1' src={clouds} alt="black-clouds" />
+                <img className='w-full translate-y-1 pointer-events-none' src={clouds} alt="black-clouds" />
                 <div className='bg-black'>
                     <div className=' container mx-auto px-3'>
                         <div className="grid lg:grid-cols-2 grid-cols-1 sm:pt-[82px] pt-5 sm:pb-14 pb-8">
@@ -65,7 +65,7 @@ const Tokenomics = () => {
                         </div>
                     </div>
                 </div>
-                <img className='w-full -translate-y-1' src={clouds2} alt="black-cloud" />
+                <img className='w-full -translate-y-1 pointer-events-none' src={clouds2} alt="black-cloud" />
             </section>
         </div>
     );

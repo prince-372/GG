@@ -11,8 +11,8 @@ import gogals from '../assets/image/svg/gogals.svg';
 const Ecosystem = () => {
   return (
     <div className="bg-lineing bg-no-repeat bg-cover bg-center relative">
-        <img className="absolute sm:top-[2%] top-[0%] sm:left-[7%] left-[3%] sm:w-[159px] w-[100px]" src={newspaper} alt="newspaper" />
-      <img className="absolute sm:bottom-[2%] bottom-[9%] right-[2%] sm:w-[160px] w-[100px]" src={gogals} alt="gogals" />
+        <img className="absolute sm:top-[2%] top-[0%] sm:left-[7%] left-[3%] sm:w-[159px] w-[100px] pointer-events-none" src={newspaper} alt="newspaper" />
+      <img className="absolute sm:bottom-[2%] bottom-[9%] right-[2%] sm:w-[160px] w-[100px] pointer-events-none" src={gogals} alt="gogals" />
       <div className=" container px-3 mx-auto sm:pt-[200px] pt-5 pb-[60px]">
         <div className="grid lg:grid-cols-2 lg:gap-20 grid-cols-1 items-center">
           <div className=" flex justify-center ">
