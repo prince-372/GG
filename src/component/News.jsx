@@ -7,7 +7,7 @@ import laptop from "../assets/image/svg/laptop.svg";
 
 const News = () => {
   return (
-    <div className="bg-lineing bg-no-repeat bg-cover bg-center sm:pt-[96px] pt-10 pb-6 relative z-10">
+    <div className="bg-lineing bg-no-repeat bg-cover bg-center sm:py-[96px] py-10 pb-6 relative z-10">
       <img
         className="absolute sm:top-[-2%] top-[-2%] left-[2%] md:w-[129px] w-[80px] pointer-events-none"
         src={phone}
