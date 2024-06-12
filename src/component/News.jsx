@@ -26,7 +26,7 @@ const News = () => {
           {newsItems.map((item, index) => (
             <div
               key={index}
-              className="lg:max-w-[367px] border border-black sm:pt-[26px] pt-4 sm:ps-[22px] ps-2.5 relative z-50 bg-white"
+              className="lg:max-w-[367px] border duration-300 hover:duration-300 hover:scale-95 border-black sm:pt-[26px] pt-4 sm:ps-[22px] ps-2.5 relative z-50 bg-white"
             >
               <div className="flex items-center">
                 <img

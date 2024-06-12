@@ -1,5 +1,5 @@
 import React from "react";
-import men from "../assets/image/png/menWithNewspaper.png";
+import men from "../assets/image/webp/menWithNewspaper.webp";
 import lineCircle from "../assets/image/svg/lineCircle.svg";
 import horse from "../assets/image/svg/horse.svg";
 import twiter from "../assets/image/svg/twiter.svg";
@@ -20,11 +20,11 @@ const Ecosystem = () => {
           </div>
           <div>
             <div className="flex flex-wrap justify-center lg:justify-start items-center sm:gap-[23px] gap-3">
-              <a href=""><img className=" sm:w-[59px] w-[37px]" src={lineCircle} alt="lineCircle" /></a>
-              <a href=""><img className=" sm:w-[79px] w-[57px]" src={horse} alt="horse" /></a>
-              <a href=""><img className=" sm:w-[72px] w-[52px]" src={twiter} alt="twiter" /></a>
-              <a href=""><img className=" sm:w-[75px] w-[48px]" src={taligram} alt="taligram" /></a>
-              <a href=""><img className=" sm:w-[75px] w-[48px]" src={globe} alt="globe" /></a>
+              <a href="#" aria-label="lineCircle"><img className=" sm:w-[59px] w-[37px] duration-300 hover:duration-300 hover:scale-95" src={lineCircle} alt="lineCircle" /></a>
+              <a href="#" aria-label="horse"><img className=" sm:w-[79px] w-[57px] duration-300 hover:duration-300 hover:scale-95" src={horse} alt="horse" /></a>
+              <a href="https://x.com/?lang=en" target="_blank" aria-label="twiter"><img className=" sm:w-[72px] w-[52px] duration-300 hover:duration-300 hover:scale-95" src={twiter} alt="twiter" /></a>
+              <a href="https://telegram.org/" target="_blank" aria-label="taligram"><img className=" sm:w-[75px] w-[48px] duration-300 hover:duration-300 hover:scale-95" src={taligram} alt="taligram" /></a>
+              <a href="" aria-label="globe"><img className=" sm:w-[75px] w-[48px] duration-300 hover:duration-300 hover:scale-95" src={globe} alt="globe" /></a>
             </div>
             <h2 className="font-Inter font-black flex justify-center lg:justify-start sm:text-xxxl text-[40px] sm:leading-[77px] leading-[36px] text-black pt-3.5">
               ECOSYSTEM

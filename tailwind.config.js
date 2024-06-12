@@ -15,7 +15,7 @@ module.exports = {
         yellow: "#FC9800",
       },
       backgroundImage:{
-        lineing: "url('./assets/image/png/bgLine.png')",
+        lineing: "url('./assets/image/webp/bgLine.webp')",
       }
     },
   },

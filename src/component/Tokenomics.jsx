@@ -1,6 +1,6 @@
 import React from 'react';
-import clouds from '../assets/image/png/corveTop.png';
-import clouds2 from '../assets/image/png/corvebottom.png';
+import clouds from '../assets/image/webp/corveTop.webp';
+import clouds2 from '../assets/image/webp/corvebottom.webp';
 
 const Tokenomics = () => {
     return (
@@ -34,7 +34,7 @@ const Tokenomics = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col items-center bg-black  pt-3 lg:pt-0">
+                            <div className="flex flex-col items-center bg-black pt-5">
                                 <div className="flex flex-wrap justify-center gap-4 max-w-4xl">
                                     <div className="sm:max-w-[296px] w-full bg-yellow p-[16px_22px] flex flex-col gap-2 border border-black">
                                         <p className="text-black font-Inter font-semibold text-xl leading-8 text-center">Marketing & Partnerships</p>
