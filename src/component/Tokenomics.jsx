@@ -36,27 +36,27 @@ const Tokenomics = () => {
                             </div>
                             <div className="flex flex-col items-center bg-black pt-5">
                                 <div className="flex flex-wrap justify-center gap-4 max-w-4xl">
-                                    <div className="sm:max-w-[296px] w-full bg-yellow p-[16px_22px] flex flex-col gap-2 border border-black">
+                                    <div className="sm:max-w-[296px] w-full bg-yellow p-[16px_22px] flex flex-col gap-2 border border-black duration-300 hover:duration-300 hover:scale-95">
                                         <p className="text-black font-Inter font-semibold text-xl leading-8 text-center">Marketing & Partnerships</p>
                                         <p className="text-black font-Inter font-semibold text-2xl leading-8 text-center">5%</p>
                                     </div>
-                                    <div className="sm:max-w-[131px] w-full bg-yellow p-[16px_26px]  flex flex-col gap-2 border border-black">
+                                    <div className="sm:max-w-[131px] w-full bg-yellow p-[16px_26px]  flex flex-col gap-2 border border-black duration-300 hover:duration-300 hover:scale-95">
                                         <p className="text-black font-semibold font-Inter text-xl leading-8 text-center">Reserve</p>
                                         <p className="text-black font-semibold font-Inter text-2xl leading-8 text-center">5%</p>
                                     </div>
-                                    <div className="sm:max-w-[152px] w-full bg-yellow p-[16px_22px] flex flex-col gap-2 border border-black">
+                                    <div className="sm:max-w-[152px] w-full bg-yellow p-[16px_22px] flex flex-col gap-2 border border-black duration-300 hover:duration-300 hover:scale-95">
                                         <p className="text-black font-semibold font-Inter text-xl leading-8 text-center">Public Sale</p>
                                         <p className="text-black font-semibold font-Inter text-2xl leading-8 text-center">45%</p>
                                     </div>
-                                    <div className="sm:max-w-[296px] w-full bg-yellow p-[16px_23px] flex flex-col gap-2 border border-black">
+                                    <div className="sm:max-w-[296px] w-full bg-yellow p-[16px_23px] flex flex-col gap-2 border border-black duration-300 hover:duration-300 hover:scale-95">
                                         <p className="text-black font-semibold font-Inter text-xl leading-8 text-center">Community Development</p>
                                         <p className="text-black font-semibold font-Inter text-2xl leading-8 text-center">15%</p>
                                     </div>
-                                    <div className="sm:max-w-[296px] w-full bg-yellow p-[16px_60px] flex flex-col gap-2 border border-black">
+                                    <div className="sm:max-w-[296px] w-full bg-yellow p-[16px_60px] flex flex-col gap-2 border border-black duration-300 hover:duration-300 hover:scale-95">
                                         <p className="text-black font-semibold text-xl font-Inter leading-8 text-center">Ecosystem Fund</p>
                                         <p className="text-black font-semibold text-2xl font-Inter leading-8 text-center">10%</p>
                                     </div>
-                                    <div className="sm:max-w-[296px] w-full bg-yellow p-[16px_65px] flex flex-col gap-2 border border-black">
+                                    <div className="sm:max-w-[296px] w-full bg-yellow p-[16px_65px] flex flex-col gap-2 border border-black duration-300 hover:duration-300 hover:scale-95">
                                         <p className="text-black font-semibold text-xl font-Inter leading-8 text-center">Team & Advisors</p>
                                         <p className="text-black font-semibold text-2xl font-Inter leading-8 text-center">20%</p>
                                     </div>
