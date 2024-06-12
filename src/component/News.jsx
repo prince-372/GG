@@ -18,7 +18,7 @@ const News = () => {
         src={laptop}
         alt="laptop"
       />
-      <div className=" container max-w-[1140px] px-3 mx-auto">
+      <div className="  max-w-[1164px] px-3 mx-auto">
         <h2 className="font-Inter font-black text-center sm:text-xxxl text-[40px] sm:leading-[77px] leading-[36px] text-black sm:pb-[96px] pb-8">
           LATEST NEWS
         </h2>

@@ -8,14 +8,14 @@ const Tokenomics = () => {
             <section>
                 <img className='w-full translate-y-1 pointer-events-none' src={clouds} alt="black-clouds" />
                 <div className='bg-black'>
-                    <div className=' container mx-auto px-3'>
+                    <div className=' max-w-[1164px] mx-auto px-3'>
                         <div className="grid lg:grid-cols-2 grid-cols-1 sm:pt-[82px] pt-5 sm:pb-14 pb-8">
                             <div className='flex flex-col'>
-                                <h4 className='text-white font-Inter font-black sm:text-xxxl text-[40px] sm:leading-[77px] leading-[36px] text-center '>TOKENOMICS</h4>
-                                <p className='text-white opacity-80 font-Inter font-normal sm:text-base text-sm sm:leading-[30px] leading-[22px] lg:max-w-[453px] pt-5 text-center lg:text-start mx-auto  '>
+                                <h4 className='text-white font-Inter font-black sm:text-xxxl text-[40px] sm:leading-[77px] leading-[36px] text-center lg:text-start '>TOKENOMICS</h4>
+                                <p className='text-white opacity-80 font-Inter font-normal sm:text-base text-sm sm:leading-[30px] leading-[22px] lg:max-w-[453px] pt-5 text-center lg:text-start mx-auto lg:mx-0 '>
                                     Let's Hug GG ($LHGG) operates on a deflationary tokenomics model designed to incentivize selling Bitcoin. With a fixed total supply and a burn mechanism in place, each transaction contributes to reducing the circulating supply of $LHGG, thereby increasing its scarcity and value over time. Additionally, a portion of transaction fees is allocated to liquidity pools, ensuring stability and liquidity for $LHGG holders.
                                 </p>
-                                <div className='flex justify-center lg:-ml-16 ml-0'>
+                                <div className='flex justify-center lg:justify-start '>
                                     <div className='max-w-[404px] sm:p-[25px_27px_54px_31px] p-[19px_9px_30px_14px] border rounded-[20px] mt-5'>
                                         <div className='flex align-center gap-3.5'>
                                             <div className='flex flex-col gap-3'>
@@ -34,7 +34,7 @@ const Tokenomics = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col items-center bg-black pt-5">
+                            <div className="flex flex-col items-center bg-black pt-5 xl:min-w-[616px]">
                                 <div className="flex flex-wrap justify-center gap-4 max-w-4xl">
                                     <div className="md:max-w-[296px] w-full bg-yellow p-[16px_22px] flex flex-col gap-2 border border-black duration-300 hover:duration-300 hover:scale-95">
                                         <p className="text-black font-Inter font-semibold sm:text-xl text-base sm:leading-8 leading-5 text-center">Marketing & Partnerships</p>
