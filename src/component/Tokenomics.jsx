@@ -34,7 +34,7 @@ const Tokenomics = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col items-center bg-black pt-5 xl:min-w-[616px]">
+                            <div className="flex flex-col items-center bg-black pt-5 lg:ml-[-10%] ml-0 xl:min-w-[616px]">
                                 <div className="flex flex-wrap justify-center gap-4 max-w-4xl">
                                     <div className="md:max-w-[296px] w-full bg-yellow p-[16px_22px] flex flex-col gap-2 border border-black duration-300 hover:duration-300 hover:scale-95">
                                         <p className="text-black font-Inter font-semibold sm:text-xl text-base sm:leading-8 leading-5 text-center">Marketing & Partnerships</p>
